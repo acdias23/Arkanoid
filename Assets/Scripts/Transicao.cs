@@ -21,6 +21,10 @@ public class Transicao : MonoBehaviour
             if (scene.name == "Fase1"){
                 SceneManager.LoadScene("Fase2");
             }
+            if (scene.name == "Fase2")
+            {
+                SceneManager.LoadScene("Win");
+            }
         }
     }
 
